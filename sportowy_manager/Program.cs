@@ -42,5 +42,66 @@ class Striker : Player, IPlayerType
 
     public string GetPlayerType() => "Striker";
 }
+class Team
+{
+    private List<Player> players = new List<Player>();
+    public List<Player> Players => players; 
+    public void AddPlayer(Player player)
+    {
+        players.Add(player);
+        Console.WriteLine($"Player {player.Name} added.");
+    }
+    public void RemovePlayer(string name)
+    {
+        var player = players.FirstOrDefault(p => p.Name == name);
+        if (player != null)
+        {
+            players.Remove(player);
+            Console.WriteLine($"Player {name} removed.");
+        }
+        else
+        {
+            Console.WriteLine($"Player {name} not found.");
+        }
+    }
+    public void DisplayTeam()
+    {
+        Console.WriteLine("Team Roster:");
+        foreach (var player in players)
+        {
+            Console.WriteLine(player);
+        }
+    }
+    public void DisplayTeamStats()
+    {
+        Console.WriteLine("Team Statistics:");
+        Console.WriteLine($"Total Players: {players.Count}");
+        Console.WriteLine($"Average Score: {CalculateAverageScore()}");
+    }
+    public double CalculateAverageScore()
+    {
+        return players.Any() ? players.Average(p => p.Score) : 0;
+    }
+    public void FindPlayersByPosition(string position)
+    {
+        var matchingPlayers = players.Where(p => p.Position.Equals(position, StringComparison.OrdinalIgnoreCase));
+
+        Console.WriteLine($"Players in position {position}:");
+        foreach (var player in matchingPlayers)
+        {
+            Console.WriteLine(player);
+        }
+    }
+    public void FilterPlayers(Func<Player, bool> criteria)
+    {
+        var filteredPlayers = players.Where(criteria);
+
+        Console.WriteLine("Filtered Players:");
+        foreach (var player in filteredPlayers)
+        {
+            Console.WriteLine(player);
+        }
+    }
+}
 
 
