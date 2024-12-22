@@ -103,5 +103,34 @@ class Team
         }
     }
 }
+class Program
+{
+    static void Main(string[] args)
+    {
+        Team team = new Team();
+
+        team.AddPlayer(new Defender("John", 5));
+        team.AddPlayer(new Striker("Alex", 8));
+        team.AddPlayer(new Player("Michael", "Midfielder", 6));
+
+        team.DisplayTeam();
+
+        var playerToUpdate = team.Players.FirstOrDefault(p => p.Name == "John");
+        if (playerToUpdate != null)
+        {
+            playerToUpdate.UpdateScore(10);
+        }
+        team.DisplayTeamStats();
+
+        team.FindPlayersByPosition("Striker");
+
+        team.FilterPlayers(p => p.Score > 6);
+
+        team.RemovePlayer("Alex");
+        team.DisplayTeam();
+
+        Console.ReadLine();
+    }
+}
 
 

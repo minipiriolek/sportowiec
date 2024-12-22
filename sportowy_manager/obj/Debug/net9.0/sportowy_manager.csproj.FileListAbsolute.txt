@@ -12,3 +12,4 @@ C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0
 C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.pdb
 C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.genruntimeconfig.cache
 C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\ref\sportowy_manager.dll
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.sourcelink.json
