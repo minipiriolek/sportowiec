@@ -1,0 +1,14 @@
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\bin\Debug\net9.0\sportowy_manager.exe
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\bin\Debug\net9.0\sportowy_manager.deps.json
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\bin\Debug\net9.0\sportowy_manager.runtimeconfig.json
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\bin\Debug\net9.0\sportowy_manager.dll
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\bin\Debug\net9.0\sportowy_manager.pdb
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.AssemblyInfoInputs.cache
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.AssemblyInfo.cs
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.csproj.CoreCompileInputs.cache
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.dll
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\refint\sportowy_manager.dll
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.pdb
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\sportowy_manager.genruntimeconfig.cache
+C:\Users\Olek M\RiderProjects\sportowy_manager\sportowy_manager\obj\Debug\net9.0\ref\sportowy_manager.dll
