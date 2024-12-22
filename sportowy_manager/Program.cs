@@ -24,5 +24,23 @@ class Player
         return $"Name: {Name}, Position: {Position}, Score: {Score}";
     }
 }
+interface IPlayerType
+{
+    string GetPlayerType();
+}
+
+class Defender : Player, IPlayerType
+{
+    public Defender(string name, int score) : base(name, "Defender", score) { }
+
+    public string GetPlayerType() => "Defender";
+}
+
+class Striker : Player, IPlayerType
+{
+    public Striker(string name, int score) : base(name, "Striker", score) { }
+
+    public string GetPlayerType() => "Striker";
+}
 
 
